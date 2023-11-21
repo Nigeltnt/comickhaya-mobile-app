@@ -1,0 +1,31 @@
+          <TouchableHighlight
+             style={styles.headButton}
+             onPress={() => navigation.navigate('Home')}>
+             <Ionicons name="arrow-back" size={30} color="black" />
+          </TouchableHighlight>
+
+
+  headButton: {
+    backgroundColor: 'tomato',
+    width: 60,
+    padding: 10,
+    borderRadius: 7,
+    marginRight: 1,
+  },
+
+  onPress={() => move(`${item.bookid} `, `${item.book}`, `${item.price}`, `${item.coverimage}`)}>
+
+  <Text style={styles.discovertext}>
+          Discover books by tapping n any category or cover below
+        </Text>
+
+          discovertext: {
+    textAlign: 'center',
+    color: 'gray',
+    fontSize: 12,
+    fontWeight: 'bold',
+    marginTop: 7,
+  },
+
+  <View style={{ flex: 3, backgroundColor: 'green' }}></View>
+  <View style={{ flex: 3, backgroundColor: 'white' }}></View>
